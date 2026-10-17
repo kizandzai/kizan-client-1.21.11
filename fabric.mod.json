@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kizanclient",
+  "version": "${version}",
+  "name": "Kizan Client",
+  "description": "A personal Fabric client-side HUD and optional Discord coordinate logger.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kizan.client.KizanClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
